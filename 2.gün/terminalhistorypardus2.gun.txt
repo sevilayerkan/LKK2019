@@ -1,0 +1,6 @@
+    1  firefox
+    2  ping google.com
+    3  shutdown now
+    4  sudo apt install php-pear php-fpm php-dev php-zip php-curl php-xmlrpc php-gd php-mysql php-mbstring php-xml libapache2-mod-php
+    5  sudo service apache2 restart
+    6  php -r 'echo "\n\nYour PHP installation is working fine.\n\n\n";'

@@ -1,0 +1,63 @@
+standart input/output/error
+	stdin=0
+	stdout=1
+	stderr=2
+	
+
+echo Gunaydın >> yazdırma 
+#dosyanın sonuna >> ile , > ile komple silip yazarız.Ayrıca dosya yoksa oluşturur.
+
+tailf /var/log/syslog &
+
+ctrl c komple kapatır
+ctrl z uyku moduna arkaya alır ön plana aldığımızda aynı yerden çalışmaya devam eder.
+
+ctrl r : historyde arama
+
+| girdi çıktı yönlendirmesi
+|| or-veya işlemi
+
+cl
+
+Dosya türleri
+
+ls -la ile
+
+- sıradan dosya anlamına gelir
+
+Linkler------
+
+soft/hard link
+soft link bildiğimiz kısayol kavramı gibidir.
+
+
+------Kullanıcı ve Grup Yönetimi--------
+/etc/passwd/ kullanıcı bilgileri burada
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+

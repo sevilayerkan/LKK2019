@@ -1,0 +1,60 @@
+Bağıl yol-gerçek yol(Relative - Direct)
+	????
+	- pwd
+
+
+Linux sistem hiyerarşisi
+klasör vs dizin (file - directory)
+
+shell - kabuk kavramı 
+
+echo "Gunaydın"
+a= selam
+echo $a
+b= "2"
+
+bash
+	başka bir shelle döner
+exit
+	bir öncekine döner
+	
+.. bir önceki dizin
+ 
+. bulunduğumuz dizin
+
+!Debianda su root
+
+ls
+	bulunduğumuz dizinin altındaki dosyaları gösterir
+
+
+komut-parametre-argüman
+
+komut:cd gibi 
+parametre:sırasının önemi yoktur
+	ls -a : gizli dosyalarla sıralar
+argüman:
+	ls New Folder
+	
+ls Do*
+
+~/Downloads : ~ == home/user
+
+
+Dosya türleri
+	
+Temel komutlar
+ 
+ komut --time = 30
+ komut -t
+ 
+ man ls
+ ls --help
+ 
+cd ../../usr/local/lib
+cd ../../../etc/apt/apt.conf.d
+
+
+
+	
+

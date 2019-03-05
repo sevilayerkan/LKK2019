@@ -1,0 +1,179 @@
+Özgür yazılım vs açık kaynak
+	Özgür yazılım bir felsefe
+	Her açık kaynak yazılım özgür yazılım olmaz.
+
+Yazılımın özgürlüğü kavramı
+	Özgür yazılımı oluşturan haklar, bunlardan biri olmazsa yazılım özgür değildir.
+
+	Özgürlük 0: İstenen her amaçla uygulamayı çalıştırma
+	Özgürlük 1: Programın çalışmasını incelemek ve ihtiyaç doğrultusunda değiştirmek	
+	Özgürlük 2: Kopyalarını dağıtabilmek
+	Özgürlük 3: Programı geliştirebilmek
+
+Özgür yazılımın önemi
+	Güvenlik,esneklik,uygulama desteği
+
+Yazılım lisansları
+	Lisanslar özgürlüklerimizi korumak için olan kurallar.
+	GPL: Özgür Yazılım Vakfı
+		Özgür yazılım olarak geliştirilen yazılımlar
+		Değiştirilmiş yazılımlar da bu lisansla olmalı
+		Özgürse sonuna kadar özgür
+		Telif hakkını zorunlu kılar
+	LGPL:
+		Sonradan kapalı olarak da lisanslanabilir.
+		
+
+	??linux.org'tan bak.
+
+Git
+	??Açıkla
+	??Github
+
+Özgür yazılım örnekleri
+
+	Firefox
+	Aphache
+	Samba
+	
+	Platform bağımlılığı yoktur özgür yazılımların.
+
+Özgür Yazılımın Önemi
+
+	Teknolojinin gelişmesine katkı
+
+
+------------------------------------------------------
+
+Gnu and Richard Stallmann <3
+	Gnu is not unix
+	Çekirdek : Donanımla yazılımın haberleşmesini sağlayan yazılım.Linux bir işletim sistemi çekirdeği(ram süreç işlemci yönetimi)
+	İşletim sistemi: Kullanıcı ve yazılım arası ilişkiyi sağlar
+	Multix: Thompson,Richie bununla unixi yazıyor.Bell rab. bunu satıyor. Ve Thompson,Richie sonra gnu projesini başlattı.
+	Multix->Unix->...
+	Unix temelli bir herkesin kullanıp dağıtabileceği bir dağıtım : gnu
+	
+
+Dağıtımlar
+	Distro watch - popüler dağıtımlar
+		+ - leri, masaüstü ortamları, seviyesi 
+	Ubuntu-kbuntu-zubuntu : masaüstü ortamları farklı sadece
+	
+
+	apt-install - yum
+
+	debian:ubuntu pardus ubuntu mint kali
+	
+	Dağıtım kullanımı kişisel tercihe bağlıdır.Örneğin ubuntu son kullanıcı araçları üzerine yoğunlaşmış bir dağıtımdır.
+	Önemli olan şeylerden biri support sürümleri örn. LTS
+Debian : 
+	 unstable : ilk çıkanlar buraya gelir
+	 test : 2 sene test edilir.
+	 stable : güvenli olduğu onaylandığında buraya geçer
+
+	Son kullanıcı 1 senede bir update geldiğinden debian ı tercih etmez.Ancak kararlı olduğundan kurumsal amaçla tercih edilebilir.
+	Debian versiyonları isimlerini Toy Story'den alır.
+	
+
+Ubuntu : 
+	4-10. ayda sürüm çıkar
+	xxxx
+
+Centos:
+
+	RPM paket yöne. kullanır.
+	Çok dil desteği
+	Çok ciddi comminity desteği
+	
+bsd: ???
+	free bsd -> macos
+	open bsd -> 
+
+solaris: ???
+	sun systems
+
+Linux nedir <3
+	Linus Torvalds : çekirdeği yazdı
+	Revolution OS filmi izlenmeli
+	Minix 
+	
+
+Masaüstü ortamları
+	gnome :	
+	xfse : çok düşük donanımlarda, pardus
+	kde : son kullanıcı dostu, windowsa benzer
+	mate : 
+	
+	İşletim sistemleri birden fazlasına destek verebilir.
+
+	qt : python
+
+Network:
+	Çeşitleri:
+		????
+
+-Kurulum
+
+- su 
+- sudo geçici olarak son kullanıcıya yetki verir
+
+-config dosyasıyla preseed/netboot olarak kurulum ayarlarını geçebiliyoruz
+
+-hosts: hostname/ip
+
+--------------------------
+Dosya Sistemleri
+	var
+	lib
+	root
+	bin
+	device
+	etc * konfigürasyon dosyaları bulunur (apache, mysql vs.)
+	mount
+	media
+	opt * 3. parti yazılımlar için,elle dışarıdan dosya kurmak için tercih edilir
+	tmp * ~
+	home * ~
+	
+	*önemli
+	~root olmadan kullanabileceklerimiz
+	
+grup ön yükleyicisi
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+	
+	
+
+
+		
+
+
+
+
+
+	
+
+
+
+
+
+	

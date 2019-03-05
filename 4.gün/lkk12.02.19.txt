@@ -1,0 +1,353 @@
+    2  whoami
+    3  where firefox
+    4  ls; whoami
+    5  echo "Selam"
+    6  echo ld -ls
+    7  echo 
+    8  echo hey
+    9  cd Desktop/lkk/3.gün ; echo selam > yazdırma 
+   10  echo selamlar > yazdırma 
+   11  clear
+   12  cat yazdırma
+   13  echo Lorem ipsum dolor si amed  > yazdırma 
+   14  cat yazdırma 
+   15  echo Gunaydın >> yazdırma 
+   16  #dosyanın sonuna >> ile , > ile komple silip yazar
+   17  cat yazdırma
+   18  tail yazdırma 
+   19  echo "İyi dersler :)" >> ders
+   20  cat yazdırma > yazdırma2
+   21  ls
+   22  echo
+   23  cat < yazdırma
+   24  rm dosya.txt 2> error
+   25  cat error
+   26  rm error
+   27  cat error
+   28  rm dosya.txt 2> error
+   29  cat error
+   30  rm dosya.txt 2> error
+   31  cat error
+   32  touch dosya.txt 2>&1 çıktı
+   33  cat çıktı 
+   34  echo "Merhaba" 2>&1 çıktı
+   35  cat çıktı 
+   36  clear
+   37  cat çıktı 2>&1 çıktı
+   38  echo "Merhaba" 2>&1 çıktı
+   39  man çıktı
+   40  cat çıktı 
+   41  cat çıktı 2>&1 > /dev/null
+   42  wc dosya.txt > count.txt
+   43  cat count.txt 
+   44  #ekrana çıktı veren her şey dosyaya yazdırılabilir
+   45  ls /etc/ | grep apt
+   46  ls /etc/
+   47  ls /etc/ | grep apt
+   48  pwd | grep d*
+   49  ls | 
+   50  cd ..
+   51  pwd | grep 3
+   52  cd 3.gün/
+   53  pwd | grep 3
+   54  ls asd | grep dosya
+   55  grep dosya
+   56  firefox 
+   57  firefox
+   58  telegram-desktop 
+   59  tailf /var/log/syslog &
+   60  cd
+   61  tailf /var/log/syslog &
+   62  jobs
+   63  fg 2
+   64  #fg 2 ile 2. processe geçiş yaptık
+   65  jobs
+   66  fg 1
+   67  jobs
+   68  fg 3
+   69  jobs
+   70  sudo apt update
+   71  jobs
+   72  fg 1
+   73  clear
+   74  ls asd | grep dosya
+   75  cat asd: ls qwe
+   76  cat asd; ls qwe
+   77  cat asd & ls qwe
+   78  cat asd && ls qwe
+   79  cat ogrenciler && ls qwe
+   80  cd Desktop/lkk
+   81  cat 3.gun && ls qwe
+   82  cat 3.gun  && ls qwe
+   83  ls 3.gun  && ls qwe
+   84  ls
+   85  ls 3.gün  && ls qwe
+   86  cat ogrenciler || ls qw
+   87  cat 3.gün/yazdırma || ls qw
+   88  cat qq || cat gg
+   89  clear
+   90  man terminal
+   91  terminal --help
+   92  cd 3.gün/
+   93  ls -la
+   94  a = 5 ; echo a
+   95  a = 5
+   96  echo a = 5
+   97  a
+   98  clear
+   99  echo a
+  100  echo a=5
+  101  a=5
+  102  echo &a
+  103  echo %a
+  104  echo a
+  105  echo $PATH 
+  106  echo $HOME
+  107  cat etc/enviroment
+  108  cat etc/environment
+  109  cat /etc/environment
+  110  sudo cat etc/environment
+  111  sudo cat /etc/environment
+  112  echo $a
+  113  echo USER
+  114  echo $USER
+  115  env
+  116  env | grep a
+  117  x = 8
+  118  x=8
+  119  env | grep x
+  120  echo x=5
+  121  echo &x
+  122  echo $x
+  123  x!=8
+  124  x=NULL
+  125  echo $x
+  126  unset x
+  127  echo $x
+  128  cd tmp
+  129  cd /tmp
+  130  cd $HOME
+  131  echo $("ls -l")
+  132  clear
+  133  echo "1.satır" > satırlar
+  134  cat satırlar
+  135  echo """
+  136  lorem ipsum
+  137  gsdgsfsd
+  138  bcvbcbcb
+  139  bcvbcbvcbcvb
+  140  bcbcbcbbcvbc
+  141  bcbcbcbcbcb
+  142  dsfdgdfgdgg
+  143       bcvbcbcvbbbb
+  144  wewwwwwewew
+  145  vvvvvvvvvvv
+  146  """
+  147  echo """
+  148  lorem ipsum
+  149  gsdgsfsd
+  150  bcvbcbcb
+  151  bcvbcbvcbcvb
+  152  bcbcbcbbcvbc
+  153  bcbcbcbcbcb
+  154  dsfdgdfgdgg
+  155       bcvbcbcvbbbb
+  156  wewwwwwewew
+  157  vvvvvvvvvvv
+  158  """>>satırlar
+  159  cat satırlar
+  160  cp satırlar Desktop/lkk/3.gün
+  161  cd Desktop/lkk/3.gün/
+  162  cat satırlar
+  163  clear
+  164  touch veli.txt
+  165  nano veli.txt 
+  166  cat veli.txt
+  167  nano veli.txt 
+  168  find --help
+  169  man find
+  170  find veli.txt 
+  171  find selim veli.txt
+  172  find veli.txt selim
+  173  echo veli.txt
+  174  head -n 2 veli.txt 
+  175  cat veli.txt && echo "deb aliveli salim" && tail -l 1
+  176  cat veli.txt && echo "deb aliveli salim" && tail -l 2
+  177  cat veli.txt && echo "deb aliveli salim" && tail -l
+  178  head -2  veli.txt && echo "deb aliveli salim" && tail -l veli.txt
+  179  head -2 veli.txt && echo "deb aliveli salim" && tail -1 veli.txt
+  180  sed -e "s/selim/salim/g" veli.txt
+  181  clear
+  182  nl veli.txt
+  183  nl --help
+  184  nl 3 veli.txt 
+  185  nl - 3 veli.txt 
+  186  nl -3 veli.txt 
+  187  nl -n veli.txt
+  188  nl veli.txt -n
+  189  nl veli.txt -n 2
+  190  nl veli.txt | find 2
+  191  nl veli.txt > find 2
+  192  nl veli.txt | find 2
+  193  nl veli.txt | find "    2"
+  194  find "    2" veli.txt
+  195  find a veli.txt
+  196  find veli.txt a
+  197  man grep
+  200  cd Desktop/lkk/3.gün/
+  201  echo """
+  202  a
+  203  b
+  204  c
+  205  d
+  206  g
+  207  h
+  208  k
+  209  h
+  210  n
+  211  vs
+  212  d
+  213  f
+  214  b
+  215  b
+  216  b
+  217  b
+  218  b
+  219  b
+  220  b
+  221  d
+  222  d
+  223  s
+  224  s
+  225  h
+  226  n
+  227  n
+  228  n
+  229  n
+  230  n
+  231  n
+  232  nn
+  233  """>27.txt
+  234  grep 27.txt
+  235  head 27.txt
+  236  head -27 27.txt
+  237  head -27 27.txt | tail 
+  238  head -27 27.txt > tail
+  239  nl 2
+  240  nl 27.txt 
+  241  head -27 27.txt | tail -1
+  242  head -27 27.txt | tail -0
+  243  head -27 27.txt | tail 
+  244  tail | head -27 27.txt 
+  245  tail -27 27.txt
+  246  mantail
+  247  man tail
+  248  tail -n 27 27.txt
+  249  tail -n 27 27.txt | head
+  250  tail -n 27 27.txt | head -1
+  251  tail -n 27 27.txt | head -n 1
+  252  nl 27.txt 
+  253  cd Desktop/lkk/3.gün/
+  254  nl 27.txt 
+  255  tail -n 27 27.txt | head -n 1
+  256  tail -n 27 27.txt 
+  257  tail -n 26 27.txt | head -n 1
+  258  tail -n 27 27.txt | head -n 1
+  259  tac 27.txt | head -n 27
+  260  tac 27.txt | head -n 27 | tail -n 1
+  261  tac 27.txt | head -n 27 | tac | head -n 1
+  262  tac 27.txt | nl | grep 27
+  263  tail -n 27 27.txt | head -n 1
+  264  clear
+  265  head /etc/passwd
+  266  cat /etc/passwd
+  267  clear
+  268  cat /etc/group | grep duygu
+  269  cat /etc/group | grep sevilay
+  270  ping google.com -10
+  271  ping google.com -n 10
+  272  ping -10 google.com 
+  273  ping -n 10 google.com 
+  274  ping -c 10 google.com 
+  275  groups
+  276  id
+  277  passwd
+  278  find $HOME
+  279  echo ~
+  280  echo $HOME
+  281  cd $HOME
+  282  cd; pwd
+  283  sudo ls /etc/shadow
+  284  sudo cd /etc/shadow
+  285  sudo cd/etc/shadow
+  286  sudo cat /etc/shadow
+  287  cd Desktop/lkk/3.gün/
+  289  #lkk 4. gün
+  290  sudo apt-get update
+  291  man dpkg
+  292  dpkg -l
+  293  cmatrix
+  294  apt-cache search vim
+  295  sudo apt install neofetch
+  296  sudo apt install screenfetch
+  297  screenfetch
+  298  sh
+  299  cd -
+  300  systemctl restart NetworkManager
+  301  vi /etc/NetworkManager/
+  302  sudo su
+  303  sudo cat /etc/shadow/
+  304  sudo cat /etc/shadow
+  305  sudo adduser kamp
+  306  cd
+  307  sudo addgroup test-group
+  308  groups
+  309  group
+  310  sudo deluser kamp
+  311  sudo deluser aaa
+  312  sudo delgroup kamp
+  313  sudo delgroup aaa
+  314  sudo deluser aaa
+  315  who
+  316  su aaa
+  317  top
+  318  sudo deluser aaa
+  319  sudo kill -9 13154
+  320  systemctl restart NetworkManager
+  321  sudo adduser kamp
+  322  sudo useradd kamp2
+  323  cat /etc/group
+  324  sudo adduser aaa
+  325  su aaa
+  326  sudo adduser kamp
+  327  su kamp
+  328  sudo deluser kamp
+  329  sudo delgroup kamp
+  330  groups
+  331  cd /etc/groups
+  332  cd /bin/groups
+  333  where groups
+  334  whereis groups
+  335  cd /usr/bin/groups
+  336  cd /usr/bin/groups/
+  337  cd /bin/groups
+  338  cat /etc/group
+  339  ip a
+  340  cd /etc/skel/
+  341  ls -la
+  342  chown
+  343  cd
+  344  hostname
+  345  sudo nano /etc/hostname
+  346  hostname
+  347  sudo nano /etc/hostname
+  348  sudo apt update
+  349  sudo apt install openssh-client
+  350  ip a
+  351  ssh user-clone@192.168.43.58
+  352  whoami
+  353  touch tasinan
+  354  mv tasinan Desktop
+  355  scp Desktop/tasinan user@192.168.43.58:~
+  356  scp Desktop/tasinan user-clone@192.168.43.58:~
+  357  shutdown now
